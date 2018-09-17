@@ -1,0 +1,7 @@
+Challenge Eko Party 2018
+Waldo Spek
+Title: White Noise  
+
+FLAG=ONA{$HASH}   --> FLAG=ONA{48ab770e609daa09d845fad2c5625ba00fb7c6e3}
+HASH=SHA1($MSG)   --> HASH=48ab770e609daa09d845fad2c5625ba00fb7c6e3
+MSG=$1$2$3$4$SALT --> MSG=DRINKCOCA-COLAEATPOPCORNSUGAR

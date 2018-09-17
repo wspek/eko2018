@@ -1,0 +1,109 @@
+- Test to create a QR code with frequency range frequencies
+- Prepare the audio to match
+- Create the whitenoise puzzle and confirm it is solvable
+- Write down the white frequencies of the sum of whitespaces
+
+
+17496
+17658
+19116
+17982
+
+
+21600
+21800
+23600
+22200
+qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_M,
+        box_size=10,
+        border=18,
+    )
+    solution_strings = [
+        "IT'S",
+        "ALL",
+        "ABOUT",
+        "FREQUENCIES",
+    ]
+
+
+19392
+19904
+20480
+20992
+qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_H,
+        box_size=8,
+        border=18,
+    )
+    solution_strings = [
+        "IT'S",
+        "ALL",
+        "ABOUT",
+        "FREQUENCIES",
+    ]
+
+14464
+14208
+16128
+14208
+21120
+21504
+
+
+20608
+20224
+20032
+21632
+20864
+solution_strings = [
+        "IT'S",
+        "ACTUALLY",
+        "ABOUT",
+        "FREQUENCY",
+        "SALT=SUGAR"
+    ]
+    longest_length = len(solution_strings[4])
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_H,
+        box_size=8,
+        border=18,
+    )
+
+
+20352 - 1=DRINK
+20736 - 2=COCA-COLA
+19968 - 3=EAT
+21632 - 4=POPCORN
+20864 - EOM
+    solution_strings = [
+        "UNION",
+        "WHITE",
+        "PIXELS",
+        "FREQUENCY",
+        "SALT=SUGAR"
+    ]
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_H,
+        box_size=8,
+        border=18,
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

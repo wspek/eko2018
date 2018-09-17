@@ -1,0 +1,5 @@
+FLAG=ONA{$HASH}
+HASH=SHA1($MSG)
+MSG=$1$2$3$4$SALT
+
+Turn down your volume. Open whitenoise.html to start.

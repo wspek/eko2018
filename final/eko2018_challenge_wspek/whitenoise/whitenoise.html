@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ekoparty 2018 - White Noise</title>
+    <script src="./files/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $('document').ready(function(){
+            var audio = new Audio('./files/whitenoise.wav');
+            audio.loop = true;
+            audio.volume = 0.6
+            audio.play();
+
+            // Clickable spoiler:
+            $('.jqSpoilerClick').initSpoilers({method:'click'}).addClass('jqSpoiler');
+        });
+
+    </script>
+</head>
+<body bgcolor="#000000">
+    <center>
+        <div class="container">
+            <img src="./files/title.png" alt="" />
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="./files/whitenoise.gif" alt="whitenoise"/>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
+
